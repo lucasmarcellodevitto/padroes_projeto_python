@@ -1,3 +1,4 @@
+# Possui uma classe com um o mais métodos para criar objetos
 from abc import ABCMeta, abstractmethod
 
 

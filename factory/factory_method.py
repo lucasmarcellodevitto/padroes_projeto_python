@@ -1,3 +1,5 @@
+# Usa herança e subclasses para definir os objetos a serem criados
+
 from abc import ABCMeta, abstractmethod
 
 
