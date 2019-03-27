@@ -1,3 +1,7 @@
+# Define uma dependencia de um pra muitos entre os objetos, de modo que qualquer alteração sera notificada
+# aos dependentes de maneira automatica
+
+
 class CanalDeNoticia:
 
     def __init__(self):
@@ -42,7 +46,6 @@ class SMS(Assinar):
 
     def update(self):
         print(type(self).__name__, self.assinatura.noticia)
-
 
 
 class Email(Assinar):
